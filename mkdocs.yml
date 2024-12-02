@@ -1,0 +1,44 @@
+site_name: hjetter tech docs
+repo_name: GitHub
+repo_url: https://github.com/gittesserakt/hjetter-tech-docs
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Game Engines: 
+      - Arkanoid3D: game_engines/arkanoid3d.md
+      - Doom: game_engines/doom.md
+      - Projekt First Person and IK Animations: game_engines/projekt_pov_ik.md
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: orange
+      accent: light-orange
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: orange
+      accent: light-orange
+  icon:
+    repo: fontawesome/brands/gitlab
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
