@@ -12,7 +12,7 @@ help: ## Show this help message
 
 .PHONY: run
 run: build ## Run docs
-	docker run --rm -it -p 80:8080 ${BINARY_NAME}
+	docker run --rm -it -p 8080:80 ${BINARY_NAME}
 
 .PHONY: build
 build: ## Build docs

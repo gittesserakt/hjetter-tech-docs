@@ -11,7 +11,7 @@ WORKDIR /docs
 # Generate the documentation
 RUN mkdocs build
 
-FROM docker.io/rapidfort/nginx:1.27
+FROM docker.io/nginx
 
 # Copy the documentation
-COPY --from=builder /docs/site /app
+COPY --from=builder /docs/site /usr/share/nginx/html
