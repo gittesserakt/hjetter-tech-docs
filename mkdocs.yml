@@ -37,8 +37,10 @@ theme:
     repo: fontawesome/brands/gitlab
 
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.details
+  - pymdownx.critic
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.superfences:

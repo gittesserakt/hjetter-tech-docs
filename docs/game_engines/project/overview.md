@@ -1,8 +1,9 @@
 # Projekt WiSe 24/25: First Person and IK Animations
 
-!!! note "Projekt is noch in Arbeit"
+[Link zu Projekt-ZIP](https://drive.google.com/file/d/1eEWAHQF5Y9wQCx9Pz6og3rJo7dBn0DDn/view?usp=sharing)
 
-    Das Projekt ist noch in Arbeit. Daher bitte ich um Verständnis, dass noch nicht alle Informationen vorhanden sind.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sz5FoTmBoJo?si=n9_QHRTnSw48Cy5b&vq=hd1440" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Download the windows build](https://drive.google.com/uc?export=download&id=1mIePOOYsEGK2tA6o5jRmiwvOJckqtoQJ){ .md-button .md-button--primary }
 
 ## Zielsetzung
 Das Projekt soll die Umsetzung von First Person und IK Animationen in Unity demonstrieren. Dabei sollen die Animationen von Waffen und Händen in First Person und die Animationen von einem Spinnen Gegner gezeigt werden. Für die Animierung soll das Tool UMotion Pro verwendet werden.
@@ -19,27 +20,22 @@ Das Projekt soll die Umsetzung von First Person und IK Animationen in Unity demo
     - [X] VFX erstellen
 - [ ] Spinnen Gegner Animation
     - [X] Assets finden
-    - [ ] Soundeffekte finden
+    - [ ] {--Soundeffekte finden--}
     - [X] Spinnen Asset anpassen (Rigging und Mesh)
-    - [ ] Animationen erstellen
+    - [X] Animationen erstellen
 - [ ] Finalisierung
     - [X] UI erstellen
-    - [ ] Doom Level portieren
-    - [ ] Beide Animationen in Level einbinden
-    - [ ] Testen
+    - [ ] {--Doom Level portieren--}
+    - [X] Beide Animationen in Level einbinden
+    - [X] Testen
 
-## Bisheriger Projetablauf
-- Assets gesucht
-- Entscheidung: Nutzung von Unity 6 und HDRP
-- Charakter Asset angepasst
-- Animationen für Charakter erstellt
-- Festgestellt, dass Generic Rigs keine Möglichkeit für beugen des Rückens bieten
-- Versetzen des Pivot Points des Charakters, um Charakter in First Person zu rotieren
-  - Problem: Alle Animationen müssen neu gemacht werden
-- Alle Animationen neu gemacht
-- VFX erstellt
-- Soundeffekte eingebunden
-- UI erstellt
-- Spinnen Asset von Lagecy zu HDRP konvertiert
-- Spinnen Asset Rigging
-- Spinnen Asset IK einrichten (aktueller Stand)
+## Was hätte ich noch gerne gemacht?
+- Das Doom Level konnte nicht mehr portiert werden
+- Soundeffekte für die Spinnen konnten nicht mehr gefunden werden und eingebunden werden
+- Die Spinnen haben nur eine Idle und Walk Animation
+- Keine VFX Effekte (getroffen werden, etc.) für Spinnen und Player Schaden nehmen
+- Die Spinnen können dem Player keinen Schaden zufügen
+
+## Fazit
+
+Das Projekt war sehr interessant und hat mir gezeigt, wie viel Arbeit in der Erstellung von Animationen steckt. Für zukünftige Projekte werde UMotion Pro nicht mehr verwenden, da es teils sehr umständlich und auch nicht wirklich ausgereift ist. Unity 6 hat mir sehr gut gefallen und es gab viele neue Features wie z.B. das VFX System oder das UI Toolkit.

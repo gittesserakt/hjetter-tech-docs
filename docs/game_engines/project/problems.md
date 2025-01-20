@@ -1,5 +1,7 @@
 # Problems
 
+Die hier beschriebenen Probleme sind während der Entwicklung des Projekts aufgetreten und haben mich vor Herausforderungen gestellt oder haben den Entwicklungsprozess stärker beeinflusst. Natürlich gab es auch viele kleinere Probleme die es zu lösen galt, welche ich jedoch aufgrund ihrer geringen Relevanz nicht hier aufgeführt habe.
+
 ## Problem 1: Die richtigen Assets finden
 
 ### Charakter
