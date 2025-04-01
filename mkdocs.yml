@@ -12,6 +12,8 @@ nav:
         - Overview: game_engines/project/overview.md
         - Problems: game_engines/project/problems.md
         - Used Assets: game_engines/project/used_assets.md
+  - Data Science: 
+      - Project Plan: data_science/project_plan.md
 
 theme:
   name: material
