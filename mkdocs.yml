@@ -14,6 +14,7 @@ nav:
         - Used Assets: game_engines/project/used_assets.md
   - Data Science: 
       - Project Plan: data_science/project_plan.md
+      - Infra Diagram: data_science/infra_diagram.md
 
 theme:
   name: material
@@ -50,6 +51,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - path: javascripts/mermaid.js
 
 plugins:
   - search

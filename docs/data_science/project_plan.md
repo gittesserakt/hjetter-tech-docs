@@ -1,3 +1,5 @@
+# Data Science
+
 # Project AWS
 
 ## Projektbeschreibung
@@ -37,15 +39,15 @@ Die anfallenden Daten werden sowohl strukturiert als auch unstrukturiert gespeic
 ## Meilensteine
 
 #### Infrastruktur
-- [ ] AWS Udemey Kurs abschließen
-- [ ] Grundlegende Netzwerkstruktur / Unternehmensinfrastruktur auf AWS aufbauen
-    - [ ] VPCs, Subnetze, Gateways, Security Groups
-    - [ ] IAM-Rollen und -Berechtigungen
-- [ ] Kubernetes Cluster auf AWS aufsetzen
-    - [ ] Auto Scaling Group
-    - [ ] Deploy Talos Linux
-- [ ] Kubernetes Cluster auf On-Premise Hardware aufsetzen
-    - [ ] Talos Linux
+- [X] AWS Udemey Kurs abschließen
+- [X] Grundlegende Netzwerkstruktur / Unternehmensinfrastruktur auf AWS aufbauen
+    - [X] VPCs, Subnetze, Gateways, Security Groups
+    - [X] IAM-Rollen und -Berechtigungen
+- [X] Kubernetes Cluster auf AWS aufsetzen
+    - [ ] {--Auto Scaling Group--}
+    - [X] Deploy Talos Linux
+- [X] Kubernetes Cluster auf On-Premise Hardware aufsetzen
+    - [X] Talos Linux
 
 #### Service Deployment
 - [ ] Beispiel Service deployen
